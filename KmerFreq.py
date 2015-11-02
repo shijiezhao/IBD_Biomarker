@@ -40,6 +40,9 @@ def Freq_calculate(fasta, k, l, n, outfile):
     for record in util.iter_fst(fn):
         sid, seq = record[:2]
 	C = float(sid[1:])
+	l = float(l)
+	n = float(n)
+	k = float(k)
 	freq = C/((l-k+1)*n)
 	#q = '< k:'+str(k)+' l:'+str(l)+' n:'+str(n)+' C:'+str(C)+' Freq='+str(freq)+'\n'+seq+'\n'
 	q = '<'+str(freq)+'\n'+seq+'\n'
