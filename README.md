@@ -11,8 +11,14 @@
 
 4. Util.py
 
+## Problem to solve:
+1. How to kill a iterative nohup process... shit...
 
-
+## TODOs:
+1. Choose about 20/20 samples
+2. Make unique sequence table out of that
+3. Figure out a way to do statistical analysis: LefSe or others? Figure out LefSe first...
+4. Clustering? Based on distribution? 
 
 
 

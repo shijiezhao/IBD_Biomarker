@@ -42,7 +42,7 @@ def iter_fst(fn):
     seq = ''
     for line in open(fn):
         line = line.rstrip()
-        if line.startswith('>'):
+        if line.startswith('<') or line.startswith('>'):
             if seq != '':
                 yield [sid, seq]
             sid = line
